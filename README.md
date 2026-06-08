@@ -18,11 +18,9 @@ Built with Python. Uses the free CoinGecko API, so no exchange account or API ke
 
 1. Create a bot with [@BotFather](https://t.me/BotFather) and copy the token.
 2. Get your chat id (message [@userinfobot](https://t.me/userinfobot), or use your group/channel id).
-3. Copy the example config and fill it in:
-   ```
-   cp config.example.json config.json
-   ```
-4. Edit `config.json` with your token, chat id, and the alerts you want.
+3. Open `config.json` and put in your token, chat id, and the alerts you want.
+
+The `config.json` in this repo only has placeholder values. Keep your real token to yourself and do not commit it back once you fill it in.
 
 ## Run
 
