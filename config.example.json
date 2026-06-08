@@ -1,0 +1,13 @@
+{
+  "telegram": {
+    "bot_token": "PUT_YOUR_BOT_TOKEN_HERE",
+    "chat_id": "PUT_YOUR_CHAT_ID_HERE"
+  },
+  "vs_currency": "usd",
+  "poll_interval_seconds": 60,
+  "alerts": [
+    { "coin": "bitcoin", "type": "above", "value": 70000 },
+    { "coin": "ethereum", "type": "below", "value": 3000 },
+    { "coin": "solana", "type": "percent_change_24h", "value": 5 }
+  ]
+}
